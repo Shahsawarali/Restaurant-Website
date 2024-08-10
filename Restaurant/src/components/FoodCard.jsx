@@ -1,4 +1,5 @@
 import React from 'react'
+import "./FoodCard.css"
 
 function FoodCard({title, price, ingredients, image}) {
   return (
