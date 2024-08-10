@@ -1,4 +1,5 @@
 import React from 'react'
+import FoodCard from './FoodCard'
 
 function FoodMenu({foodNames}) {
   return (
@@ -7,10 +8,13 @@ function FoodMenu({foodNames}) {
 
         <div className="food-menu-list">
             {foodNames.map((food, index) => (
-                <>
-                <p>{food.name}</p>
-                <img src={food.image} alt={food.name} />
-                </>
+                <FoodCard 
+                key={index}
+                title = {food.name}
+                price={food.price}
+                ingredients={food.ingredients}
+                image={food.image}
+               />
             )) }
 
         </div>
