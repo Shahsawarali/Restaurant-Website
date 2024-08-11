@@ -82,3 +82,16 @@
 .food-card-details button:hover{
     background-color: #ff4500;
 }
+
+
+.see-all-foods{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff6347;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.see-all-foods:hover{
+    color: #ff6347;
+}

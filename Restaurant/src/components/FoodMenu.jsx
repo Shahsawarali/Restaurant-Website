@@ -19,6 +19,7 @@ function FoodMenu({foodNames}) {
             )) }
 
         </div>
+        <p className='see-all-foods'>See All Foods</p>
     </div>
   )
 }

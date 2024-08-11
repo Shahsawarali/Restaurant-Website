@@ -29,7 +29,7 @@
 
 .hero-container button{
     padding: 13px 22px;
-    background-color: #04aa5d;
+    background-color: #ff6347;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -38,5 +38,5 @@
 }
 
 .hero-container button:hover{
-    background-color: #039e5a;
+    background-color: #ff4500;
 }
